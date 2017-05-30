@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Task Management App</title>
+		<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Bitter|Khula" rel="stylesheet">
+		<link rel="stylesheet" href="module-app/css/style.css">
+	</head>
+
+	<body>
+
+		<section class="container">
+
+			<h1>Task Management App</h1>
+			
+			<section>
+
+				<form id="my-form">
+
+					<label for="name">Task/Item name: </label>
+					<input type="text" class="form-control" id="name" placeholder="Name">
+				
+				</form>
+
+
+				<div class="buttons">
+
+					<button id="add-btn" class="btn btn-primary">Add Task</button>
+					<button id="delete-btn" class="btn btn-primary">Delete Tasks</button>
+					<button id="sort-btn" class="btn btn-primary">Sort Tasks</button>
+					<button id="edit-btn" class="btn btn-primary">Edit Task</button>
+					<button id="save-btn" class="btn btn-warning">Save Changes</button>
+					<button id="cancel-btn" class="btn btn-warning">Cancel</button>
+
+				</div>
+
+			</section>
+
+			<section class="container-tasks">
+
+				<ul id="tasks"></ul>
+
+			</section>
+
+		</section>
+
+		<script src="vendor/js/jquery-3.2.1.min.js"></script>
+		<script src="module-app/js/app.js"></script>
+
+	</body>
+
+</html>
